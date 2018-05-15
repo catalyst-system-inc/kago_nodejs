@@ -27,4 +27,5 @@ RUN npm install yarn@1.5.1 -g && \
     npm install node-gyp@3.6.2 -g && \
     npm install node-pre-gyp@0.9.0 -g && \
     npm install webpack@4.2.0 -g && \
-    npm install webpack-cli@2.0.12 -g
+    npm install webpack-cli@2.0.12 -g && \
+    chmod 755 /usr/local/bin/yarn
