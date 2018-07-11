@@ -23,7 +23,7 @@ RUN echo "${TZ}" > /etc/timezone && \
 # npm install
 # グローバルモジュールのインストール
 # windows環境ではローカルのみでwebpackしようとするとエラーになるのでグローバル統一
-RUN npm install yarn@1.5.1 -g && \
+RUN npm install yarn -g && \
     npm install node-gyp@3.6.2 -g && \
     npm install node-pre-gyp@0.9.0 -g && \
     npm install webpack@4.2.0 -g && \
